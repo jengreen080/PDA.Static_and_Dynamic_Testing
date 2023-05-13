@@ -18,21 +18,21 @@ class CardGame:
 
 
   def check_for_ace(self, card):
-    if card.value = 1:
+    if card.value = 1: # double ='s needed
       return True 
     else # colon is needed here
       return False
    
 # def has been misspelt
   dif highest_card(self, card1 card2): #comma needed between parameters
-  if card1.value > card2.value:
+  if card1.value > card2.value: # if statement needs indented
     return card # card is not defined in this function. Should be card1
   else:
     return card2
   
 
 
-def cards_total(self, cards):
+def cards_total(self, cards): # function needs indented
   total # total has not been assigned a starting variable
   for card in cards:
     total += card.value
