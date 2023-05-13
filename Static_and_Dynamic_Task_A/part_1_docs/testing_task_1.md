@@ -33,10 +33,11 @@ class CardGame:
 
 
 def cards_total(self, cards): # function needs indented
-  total # total has not been assigned a starting variable
+  total # total has not been assigned a starting value
   for card in cards:
     total += card.value
     return "You have a total of" + total
-    # a print statement is needed to see the given text
+    # to add the total to a string the total needs converted to a string
+    # return statement currently in the for loop. Needs moved left
   
 ```
